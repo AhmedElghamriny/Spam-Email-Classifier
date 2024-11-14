@@ -1,17 +1,17 @@
-blinker>=1.7.0
-click>=8.0.0
-colorama>=0.4.4      
-Flask>=3.0.0
-Flask-Cors>=5.0.0
-gunicorn>=20.0.0
-itsdangerous>=2.1.2
-Jinja2>=3.1.2
-joblib>=1.0.0
-MarkupSafe>=2.1.2
-numpy>=1.21.0
-packaging>=23.2
-scikit-learn>=1.5.1
-scipy>=1.5.0
-setuptools>=50.0.0
-threadpoolctl>=2.0.0
-Werkzeug>=3.0.1
+blinker==1.9.0
+click==8.1.3  # Downgraded slightly for compatibility
+colorama==0.4.6
+Flask==2.2.5  # Flask 3.0+ can cause compatibility issues; this version works well with scikit-learn
+Flask-Cors==3.0.10  # Compatible with Flask 2.x
+gunicorn==20.1.0  # Common stable version for production use
+itsdangerous==2.1.2
+Jinja2==3.1.2
+joblib==1.2.0  # Downgraded for compatibility with older scikit-learn versions
+MarkupSafe==2.1.2
+numpy==1.23.5  # Compatible with scikit-learn 1.1 to 1.2; avoids the most recent changes
+packaging==21.3  # Widely compatible version
+scikit-learn==1.1.3  # Known stable version for many deployments; compatible with numpy 1.23.x
+scipy==1.8.1  # Compatible with scikit-learn 1.1.x
+setuptools==65.5.0  # Compatible with this setup
+threadpoolctl==3.1.0  # Compatible with scikit-learn 1.1.x
+Werkzeug==2.2.2  # Compatible with Flask 2.x
