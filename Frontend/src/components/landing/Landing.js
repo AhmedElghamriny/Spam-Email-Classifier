@@ -59,7 +59,7 @@ const Landing = () => {
             <a href="https://www.instagram.com/ahmed.elghamriny?igsh=MXduaXV0Nm1vNGFrbg==" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} className='icon' />
             </a>
-            <a href="https://github.com/AhmedElghamriny" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AhmedElghamriny/Spam-Email-Classifier-Website" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className='icon' />
             </a>
             <a href="https://www.linkedin.com/in/ahmedelghamriny/" target="_blank" rel="noopener noreferrer">
